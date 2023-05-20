@@ -23,7 +23,7 @@
 				"python.languageServer": "Pylance",
 				"python.linting.enabled": true,
 				"python.linting.pylintEnabled": true,
-				"python.linting.flake8Enabled": true,
+				//"python.linting.flake8Enabled": true,
 				"python.formatting.autopep8Path": "/usr/local/py-utils/bin/autopep8",
 				"python.formatting.blackPath": "/usr/local/py-utils/bin/black",
 				"python.formatting.yapfPath": "/usr/local/py-utils/bin/yapf",
@@ -43,7 +43,7 @@
 				"GitHub.codespaces"
 			]
 		}
-	},
+	}//,
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
@@ -51,5 +51,5 @@
 	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	//"remoteUser": "vscode"
 }
